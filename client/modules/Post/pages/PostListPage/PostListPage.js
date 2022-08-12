@@ -32,6 +32,7 @@ class PostListPage extends Component {
   render() {
     return (
       <div>
+        <span>some text to edit the page and trigger a workflow</span>
         <PostCreateWidget addPost={this.handleAddPost} showAddPost={this.props.showAddPost} />
         <PostList handleDeletePost={this.handleDeletePost} posts={this.props.posts} />
       </div>
